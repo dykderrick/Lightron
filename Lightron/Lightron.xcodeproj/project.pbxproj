@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C118D3629BF2B58005E7E64 /* GothamRndMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C118D3429BF2B58005E7E64 /* GothamRndMedium.otf */; };
+		8C118D3C29BF2F86005E7E64 /* GothamRndBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C118D3529BF2B58005E7E64 /* GothamRndBold.otf */; };
+		8C118D3E29BF3119005E7E64 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C118D3D29BF3119005E7E64 /* Color.swift */; };
+		8C118D4029BF31B8005E7E64 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C118D3F29BF31B8005E7E64 /* Header.swift */; };
+		8C118D4229BF325F005E7E64 /* TrainingItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C118D4129BF325F005E7E64 /* TrainingItemView.swift */; };
+		8C118D4429BF3EA7005E7E64 /* CBUUIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C118D4329BF3EA7005E7E64 /* CBUUIDs.swift */; };
+		8C118D4829BF3F0E005E7E64 /* BLEPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C118D4729BF3F0E005E7E64 /* BLEPeripheral.swift */; };
+		8C118D4A29BF4FA6005E7E64 /* PeripheralInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C118D4929BF4FA6005E7E64 /* PeripheralInfoView.swift */; };
+		8C118D4C29BF512B005E7E64 /* GothamRndBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8C118D4B29BF512B005E7E64 /* GothamRndBook.otf */; };
+		8C118D4F29BF5989005E7E64 /* TrainingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C118D4E29BF5989005E7E64 /* TrainingManager.swift */; };
+		8C118D5129BF59E2005E7E64 /* TrainingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C118D5029BF59E2005E7E64 /* TrainingType.swift */; };
+		8C65173229BDEC9A00321D21 /* LightronApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65173129BDEC9A00321D21 /* LightronApp.swift */; };
+		8C65173429BDEC9A00321D21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65173329BDEC9A00321D21 /* ContentView.swift */; };
+		8C65173629BDEC9B00321D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C65173529BDEC9B00321D21 /* Assets.xcassets */; };
+		8C65173929BDEC9B00321D21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C65173829BDEC9B00321D21 /* Preview Assets.xcassets */; };
+		8C65174129BDF5F600321D21 /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C65174029BDF5F600321D21 /* BluetoothManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8C118D3429BF2B58005E7E64 /* GothamRndMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRndMedium.otf; sourceTree = "<group>"; };
+		8C118D3529BF2B58005E7E64 /* GothamRndBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRndBold.otf; sourceTree = "<group>"; };
+		8C118D3929BF2B8B005E7E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8C118D3D29BF3119005E7E64 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		8C118D3F29BF31B8005E7E64 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		8C118D4129BF325F005E7E64 /* TrainingItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingItemView.swift; sourceTree = "<group>"; };
+		8C118D4329BF3EA7005E7E64 /* CBUUIDs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBUUIDs.swift; sourceTree = "<group>"; };
+		8C118D4729BF3F0E005E7E64 /* BLEPeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEPeripheral.swift; sourceTree = "<group>"; };
+		8C118D4929BF4FA6005E7E64 /* PeripheralInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralInfoView.swift; sourceTree = "<group>"; };
+		8C118D4B29BF512B005E7E64 /* GothamRndBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GothamRndBook.otf; sourceTree = "<group>"; };
+		8C118D4E29BF5989005E7E64 /* TrainingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingManager.swift; sourceTree = "<group>"; };
+		8C118D5029BF59E2005E7E64 /* TrainingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingType.swift; sourceTree = "<group>"; };
+		8C65172E29BDEC9A00321D21 /* Lightron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lightron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C65173129BDEC9A00321D21 /* LightronApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightronApp.swift; sourceTree = "<group>"; };
+		8C65173329BDEC9A00321D21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C65173529BDEC9B00321D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C65173829BDEC9B00321D21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C65174029BDF5F600321D21 /* BluetoothManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C65172B29BDEC9A00321D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C118D4529BF3EAB005E7E64 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C118D4329BF3EA7005E7E64 /* CBUUIDs.swift */,
+				8C118D4729BF3F0E005E7E64 /* BLEPeripheral.swift */,
+				8C118D5029BF59E2005E7E64 /* TrainingType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C118D4D29BF56E1005E7E64 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8C118D4B29BF512B005E7E64 /* GothamRndBook.otf */,
+				8C118D3529BF2B58005E7E64 /* GothamRndBold.otf */,
+				8C118D3429BF2B58005E7E64 /* GothamRndMedium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8C65172529BDEC9A00321D21 = {
+			isa = PBXGroup;
+			children = (
+				8C65173029BDEC9A00321D21 /* Lightron */,
+				8C65172F29BDEC9A00321D21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C65172F29BDEC9A00321D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C65172E29BDEC9A00321D21 /* Lightron.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C65173029BDEC9A00321D21 /* Lightron */ = {
+			isa = PBXGroup;
+			children = (
+				8C118D4D29BF56E1005E7E64 /* Fonts */,
+				8C118D3929BF2B8B005E7E64 /* Info.plist */,
+				8C65173129BDEC9A00321D21 /* LightronApp.swift */,
+				8C118D4529BF3EAB005E7E64 /* Models */,
+				8C65173F29BDF3B000321D21 /* Views */,
+				8C65174229BDF5FB00321D21 /* ViewModels */,
+				8C65173529BDEC9B00321D21 /* Assets.xcassets */,
+				8C65173729BDEC9B00321D21 /* Preview Content */,
+			);
+			path = Lightron;
+			sourceTree = "<group>";
+		};
+		8C65173729BDEC9B00321D21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C65173829BDEC9B00321D21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C65173F29BDF3B000321D21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C65173329BDEC9A00321D21 /* ContentView.swift */,
+				8C118D3D29BF3119005E7E64 /* Color.swift */,
+				8C118D3F29BF31B8005E7E64 /* Header.swift */,
+				8C118D4129BF325F005E7E64 /* TrainingItemView.swift */,
+				8C118D4929BF4FA6005E7E64 /* PeripheralInfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C65174229BDF5FB00321D21 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8C65174029BDF5F600321D21 /* BluetoothManager.swift */,
+				8C118D4E29BF5989005E7E64 /* TrainingManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C65172D29BDEC9A00321D21 /* Lightron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C65173C29BDEC9B00321D21 /* Build configuration list for PBXNativeTarget "Lightron" */;
+			buildPhases = (
+				8C65172A29BDEC9A00321D21 /* Sources */,
+				8C65172B29BDEC9A00321D21 /* Frameworks */,
+				8C65172C29BDEC9A00321D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lightron;
+			productName = Lightron;
+			productReference = 8C65172E29BDEC9A00321D21 /* Lightron.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C65172629BDEC9A00321D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					8C65172D29BDEC9A00321D21 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 8C65172929BDEC9A00321D21 /* Build configuration list for PBXProject "Lightron" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C65172529BDEC9A00321D21;
+			productRefGroup = 8C65172F29BDEC9A00321D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C65172D29BDEC9A00321D21 /* Lightron */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C65172C29BDEC9A00321D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C65173929BDEC9B00321D21 /* Preview Assets.xcassets in Resources */,
+				8C118D3C29BF2F86005E7E64 /* GothamRndBold.otf in Resources */,
+				8C118D3629BF2B58005E7E64 /* GothamRndMedium.otf in Resources */,
+				8C118D4C29BF512B005E7E64 /* GothamRndBook.otf in Resources */,
+				8C65173629BDEC9B00321D21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C65172A29BDEC9A00321D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C118D4029BF31B8005E7E64 /* Header.swift in Sources */,
+				8C118D4F29BF5989005E7E64 /* TrainingManager.swift in Sources */,
+				8C118D4429BF3EA7005E7E64 /* CBUUIDs.swift in Sources */,
+				8C65173429BDEC9A00321D21 /* ContentView.swift in Sources */,
+				8C118D5129BF59E2005E7E64 /* TrainingType.swift in Sources */,
+				8C118D3E29BF3119005E7E64 /* Color.swift in Sources */,
+				8C118D4A29BF4FA6005E7E64 /* PeripheralInfoView.swift in Sources */,
+				8C118D4229BF325F005E7E64 /* TrainingItemView.swift in Sources */,
+				8C118D4829BF3F0E005E7E64 /* BLEPeripheral.swift in Sources */,
+				8C65174129BDF5F600321D21 /* BluetoothManager.swift in Sources */,
+				8C65173229BDEC9A00321D21 /* LightronApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8C65173A29BDEC9B00321D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C65173B29BDEC9B00321D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C65173D29BDEC9B00321D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lightron/Preview Content\"";
+				DEVELOPMENT_TEAM = C769U5XA22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lightron/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to find near Lightrons.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to find near Lightrons.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yingke.techin514.lightron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C65173E29BDEC9B00321D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Lightron/Preview Content\"";
+				DEVELOPMENT_TEAM = C769U5XA22;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Lightron/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses Bluetooth to find near Lightrons.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses Bluetooth to find near Lightrons.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.yingke.techin514.lightron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C65172929BDEC9A00321D21 /* Build configuration list for PBXProject "Lightron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C65173A29BDEC9B00321D21 /* Debug */,
+				8C65173B29BDEC9B00321D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C65173C29BDEC9B00321D21 /* Build configuration list for PBXNativeTarget "Lightron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C65173D29BDEC9B00321D21 /* Debug */,
+				8C65173E29BDEC9B00321D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C65172629BDEC9A00321D21 /* Project object */;
+}
