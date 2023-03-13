@@ -5,4 +5,5 @@
 - Send signal of the user chosen (padded with black border) training type to the BLE.
 
 **Screenshot:**
-![Screenshot for Lightron](./Images/Lightron-screenshot.png)
+
+<img src="./Images/Lightron-screenshot.png" height="550">
